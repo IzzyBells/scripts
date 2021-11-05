@@ -1,5 +1,5 @@
 # My scripts
-A collection of small scripts I've made for practical purposes. This is all stuff I didn't feel justified a full repository, and I just sort of cobbled them together when I needed them, so they aren't perfect by any means.
+A collection of small scripts I've made for practical purposes. This is all stuff I didn't feel justified a full repository, and I just sort of cobbled them together when I needed them, so they aren't perfect by any means. They just either fix problems I have or make tedious tasks more convenient.
 # Batch (Windows)
 ## iconizer.bat
 Prerequisite:
@@ -10,7 +10,7 @@ Converts a folder full of .jpgs and .pngs to 256x256 .ico files (the largest res
 
 ## new-shimeji-ee-launcher.bat
 Prerequisites: 
-- A [Shimeji-ee](https://kilkakon.com/shimeji/) desktop pet that isn't launching correctly or showing up
+- A [Shimeji-ee](https://kilkakon.com/shimeji/) desktop pet that isn't launching correctly, or that launches fine but never spawns
 - 64-bit [Java](https://www.java.com/en/download/manual.jsp)
 
 This was the only way I could get a Shimeji-ee "desktop buddy" program that was updated from a 32-bit version to a 64-bit version to work. It could help if Shimeji-ee.jar isn't opening properly or if it opens fine but no Shimeji ever appears. 
