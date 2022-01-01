@@ -18,6 +18,16 @@ This was the only way I could get a Shimeji-ee "desktop buddy" program that was 
 First, if the Shimeji you downloaded is older than August 2017 or it specifies 32-bit Java as a requirement, update it by following the video FAQ by KonFlux Games here: https://youtu.be/A1y9C1Vbn6Q?t=658.
 Then, if launching the .jar doesn't make it work correctly, or it breaks the pre-existing launcher script/executable in the Shimeji-ee folder you were given, try putting this script into the Shimeji folder and launching it. It should just work.
 
+## swapper.bat
+Prerequisites:
+- A file, and an alternative version of that file you'd like to swap it out with from time to time.
+
+swapper.bat is a simple renaming script that allows you to swap one version of a file (for example, a vanilla game file `game.dll`), with another version of that file (for example, a modified game file `game.dll.mod`) by just running the script, instead of going into the folder each time you want to switch the file out and having to move or rename anything by hand. Replace `game.dll` with whatever file you actually want to be swapping, and `game.dll.mod` with the alternative version of that file. Have both files in the same folder as the script and run it to toggle between the two different versions. You can create a shortcut to this script to run it easily. 
+
+An example use case for this is to switch between fullscreen and windowed mode for specific game that doesn't support windowed mode as an option, but lets you force it by hex editing a game file. By swapping out the file names in the script, placing this script in the game folder alongside the original game file and the hex edited one, and putting a shortcut to this script right next to the game's shortcut on your desktop, you can toggle between the fullscreen and windowed versions of the game with just a double-click on the script's icon.
+
+The lines beginning with `echo` display a message in a Command Prompt window that pops up for two seconds to let you know which version of the file is currently being used. You can change these messages to indicate whatever you like, or comment them out / remove them entirely for the script to not open a window at all. You can also swap the `2` in the script out for however many seconds you would like the message to be displayed.
+
 # PowerShell (Windows)
 ## disable-usb-powermanagement.ps1
 
