@@ -28,6 +28,13 @@ An example use case for this is to switch between fullscreen and windowed mode f
 
 The lines beginning with `echo` display a message in a Command Prompt window that pops up for two seconds to let you know which version of the file is currently being used. You can change these messages to indicate whatever you like, or comment them out / remove them entirely for the script to not open a window at all. You can also swap the `2` in the script out for however many seconds you would like the message to be displayed.
 
+## toggle-refresh-rate.bat
+Prerequisites:
+- [QRes by AK Software](https://www.majorgeeks.com/files/details/qres.html)
+- qres.60 or qres.120 (empty files) in same folder as script and QRes, depending on your current refresh rate
+
+This script lets you toggle your refresh rate between 60hz and 120hz by just running it. I need to switch between these pretty often due to compatibility issues with certain programs and games, so it's handy to just click on a desktop shortcut in 2 seconds instead of having to go through Windows settings for a whole minute. 
+
 # PowerShell (Windows)
 ## disable-usb-powermanagement.ps1
 
